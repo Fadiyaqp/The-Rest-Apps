@@ -1,0 +1,192 @@
+@media screen and (min-width: 300px) {
+  .not-favorite{
+  color: rgb(255, 0, 0);
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  width: 260px;
+  margin-top: 30px;
+  margin-left: auto ;
+  }
+  #heroContent{
+    background-image: url(../public/heros/hero-image_2-small.jpg);
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .not-favorite{
+  color: rgb(255, 0, 0);
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  width: 280px;
+  margin-top: 30px;
+  margin-left: 10px ;
+}
+}
+@media screen and (min-width: 400px) {
+  .not-favorite{
+  color: rgb(255, 0, 0);
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 25px ;
+}
+}
+
+@media screen and (min-width: 450px) {
+    .not-favorite{
+    color: rgb(255, 0, 0);
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 50px ;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .app-bar {
+    grid-template-columns: 1fr auto;
+    padding: 8px 20px;
+  }
+
+  .app-bar .app-bar__brand h1 {
+    font-size: 1.4em;
+  }
+
+  .app-bar .app-bar__menu {
+    display: none;
+  }
+
+  .app-bar .app-bar__navigation {
+    position: static;
+    width: 100%;
+    justify-self: end;
+  }
+
+  .app-bar .app-bar__navigation ul li {
+    display: inline-block;
+  }
+
+  .app-bar .app-bar__navigation ul li a {
+    display: inline-block;
+    width: 100px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .movies {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .movie {
+    grid-template-columns: auto 1fr;
+  }
+
+  .movie .movie__title {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .movie .movie__overview {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  #heroContent{
+    background-position: 0, 0;
+  }
+
+  .resto__menu {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+  .customer__reviews {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+    .not-favorite{
+    color: rgb(255, 0, 0);
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    width: 295px;
+    margin-top: 30px;
+    margin-left: 200px ;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .app-bar .app-bar__brand h1 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .movies {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #heroContent{
+    background-position: 0, 0;
+    background-image: url(../public/heros/hero-image_2-large.jpg);
+  }
+  .not-favorite{
+    color: rgb(255, 0, 0);
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    width: 700px;
+    margin-top: 30px;
+    margin-left: 18% ;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .movies {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #heroContent{
+    background-image: url(../public/heros/hero-image_2.jpg);
+  }
+  .not-favorite{
+    color: rgb(255, 0, 0);
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    width: 700px;
+    margin-top: 30px;
+    margin-left: 45% ;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .not-favorite{
+    color: rgb(255, 0, 0);
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    width: 700px;
+    margin-top: 30px;
+    margin-left: 66% ;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .movies {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
