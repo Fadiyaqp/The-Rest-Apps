@@ -1,4 +1,37 @@
 @media screen and (min-width: 300px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .movie .movie__poster {
+    width: 100%;
+    max-width: 260px;
+  }
+  .movie__title {
+    margin-right: 40px;
+  }
+  .movie__overview {
+    max-width: 262px;
+    text-align: justify;
+  }
+.review__content {
+  margin-bottom: 10px;
+  width: 150px;
+}
+.resto__menu .isi__makanan,
+.resto__menu .isi__minuman {
+  background-color: #f2f2f2;
+}
+.customer__reviews {
+  max-width: 198px;
+  background-color: #f2f2f2;
+}
+.review__item {
+  background-color: #fff;
+  max-width: 180px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
   .not-favorite{
   color: rgb(255, 0, 0);
   font-family: 'Poppins';
@@ -15,6 +48,31 @@
 }
 
 @media screen and (min-width: 350px) {
+  .movie .movie__poster {
+    width: 100%;
+    max-width: 300px;
+  }
+  .movie__title {
+    margin-right: 30px;
+  }
+  .movie__overview {
+    max-width: 320px;
+  }
+.resto__menu .isi__makanan,
+.resto__menu .isi__minuman {
+  margin-right: 0px;
+  background-color: #f2f2f2;
+}
+.customer__reviews {
+  max-width: 249px;
+  background-color: #f2f2f2;
+}
+.review__item {
+  background-color: #fff;
+  max-width: 231px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
   .not-favorite{
   color: rgb(255, 0, 0);
   font-family: 'Poppins';
@@ -26,7 +84,31 @@
   margin-left: 10px ;
 }
 }
+
 @media screen and (min-width: 400px) {
+  .movie .movie__poster {
+    width: 100%;
+    max-width: 400px;
+  }
+  .movie__overview {
+    max-width: 100%;
+  }
+  .resto__menu .isi__makanan,
+  .resto__menu .isi__minuman {
+    margin-right: 0px;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+  .review__content {
+    width: 300px;
+  }
+  .review__item {
+    max-width: 100%;
+  }
+  .customer__reviews {
+    padding: 20px;
+    max-width: 100%;
+  }
   .not-favorite{
   color: rgb(255, 0, 0);
   font-family: 'Poppins';
